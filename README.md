@@ -7,7 +7,7 @@ Ce site présente mes **compétences**, **projets**, et **expériences professio
 
 ## 🚀 Aperçu du site
 
-👉 **Lien en ligne :** [https://riyadnaghmouchi.github.io/](https://riyadnaghmouchi.github.io/)
+👉 **Lien en ligne :** https://riyadnaghmouchi.github.io/riyadnaghmouchi.portfolio/
 
 ---
 
