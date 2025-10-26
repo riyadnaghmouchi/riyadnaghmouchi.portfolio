@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Riyad Naghmouchi — Portfolio</title>
+
+    <!-- SEO de base -->
+    <meta
+      name="description"
+      content="Portfolio de Riyad Naghmouchi — Développeur Web. Projets, compétences, expériences, et contact. Disponible en alternance."
+    />
+    <link rel="canonical" href="https://ton-domaine.fr/" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Riyad Naghmouchi — Portfolio" />
+    <meta
+      property="og:description"
+      content="Développeur Web — Projets, compétences, expériences. Disponible en alternance."
+    />
+    <meta property="og:url" content="https://ton-domaine.fr/" />
+    <meta property="og:image" content="https://ton-domaine.fr/og-cover.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Données structurées -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Riyad Naghmouchi",
+        "jobTitle": "Développeur Web",
+        "url": "https://ton-domaine.fr/",
+        "image": "https://ton-domaine.fr/img_1.png",
+        "email": "mailto:riyad.naghmouchi@epitech.eu",
+        "sameAs": [
+          "https://github.com/riyadnaghmouchi",
+          "https://www.linkedin.com/in/riyad-naghmouchi-informatique-programmation-devops-devfullstack"
+        ]
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Lien d'évitement -->
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <!-- Header -->
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Mon Portfolio</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Navigation principale">
+          <a href="#about">À propos</a>
+          <a href="#skills">Compétences</a>
+          <a href="#projects">Projets</a>
+          <a href="#experience">Expériences</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+
+        <div class="nav-actions">
+          <a class="btn outline" href="#contact" role="button">Me contacter</a>
+          <button
+            id="theme-toggle"
+            class="btn outline icon-only"
+            type="button"
+            aria-label="Basculer le thème"
+          >
+            <span aria-hidden="true" id="theme-icon">🌙</span>
+            <span class="sr-only">Basculer le thème</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="section">
+        <div class="container grid grid-2 hero">
+          <div class="reveal show" data-reveal-delay="60">
+            <p class="chip">Disponible en alternance</p>
+            <h1 class="title" style="margin: 0.75rem 0 1rem">
+              Bonjour, je suis <span>Riyad</span><br />Développeur Web
+            </h1>
+            <p class="lead">Créons ensemble le digital de demain.</p>
+
+            <div class="cta-row">
+              <a
+                class="btn"
+                href="cv_riyad_naghmouchi.pdf"
+                target="_blank"
+                rel="noopener"
+                role="button"
+                >Voir le CV</a
+              >
+              <a
+                class="btn outline"
+                href="https://github.com/riyadnaghmouchi"
+                target="_blank"
+                rel="noopener"
+                role="button"
+                >GitHub</a
+              >
+              <a
+                class="btn outline"
+                href="https://www.linkedin.com/in/riyad-naghmouchi-informatique-programmation-devops-devfullstack"
+                target="_blank"
+                rel="noopener"
+                role="button"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="avatar-wrap reveal show"
+            style="justify-self: center"
+            data-reveal-delay="120"
+          >
+            <img
+              class="avatar"
+              src="img_1.png"
+              alt="Photo de Riyad Naghmouchi"
+              width="560"
+              height="560"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- À propos -->
+      <section id="about" class="section">
+        <div class="container grid grid-2">
+          <div class="reveal card shadow-card about-card about-wide">
+            <span class="about-badge" aria-hidden="true"></span>
+            <h2>À propos</h2>
+            <p class="lead">
+              Passionné par l’informatique et le développement, je veux
+              contribuer à des projets concrets et utiles. Habitué à la relation
+              client et à la polyvalence opérationnelle, je suis à l’aise en
+              équipe comme en autonomie.
+            </p>
+            <p class="lead" style="margin-top: 0.5rem">
+              <strong>Intérêts :</strong> sports de combat, randonnée, lecture,
+              moto, voyage.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Compétences -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="reveal center-title" data-reveal-delay="60">
+            Compétences maîtrisées — en cours
+          </h2>
+
+          <div class="grid grid-3">
+            <div class="reveal card shadow-card" data-reveal-delay="60">
+              <div class="card-head">
+                <strong>Python</strong><span class="tag">Débutant</span>
+              </div>
+              <p class="lead">Bases : scripts, API simples, tests.</p>
+              <div class="meter"><span style="width: 25%"></span></div>
+            </div>
+
+            <div class="reveal card shadow-card" data-reveal-delay="120">
+              <div class="card-head">
+                <strong>Java</strong><span class="tag">En cours</span>
+              </div>
+              <p class="lead">POO, structures.</p>
+              <div class="meter"><span style="width: 30%"></span></div>
+            </div>
+
+            <div class="reveal card shadow-card" data-reveal-delay="180">
+              <div class="card-head">
+                <strong>HTML • CSS</strong
+                ><span class="tag">UX/Responsive</span>
+              </div>
+              <p class="lead">Sémantique, accessibilité, animations.</p>
+              <div class="meter"><span style="width: 90%"></span></div>
+            </div>
+          </div>
+
+          <div class="grid grid-3" style="margin-top: 1.25rem">
+            <div class="reveal card shadow-card" data-reveal-delay="60">
+              <div class="card-head">
+                <strong>JavaScript</strong><span class="tag">Front</span>
+              </div>
+              <p class="lead">DOM, composants, bonnes pratiques.</p>
+              <div class="meter"><span style="width: 78%"></span></div>
+            </div>
+
+            <div class="reveal card shadow-card" data-reveal-delay="120">
+              <div class="card-head">
+                <strong>PHP</strong><span class="tag">Back</span>
+              </div>
+              <p class="lead">Routing, formulaires, sécurité de base.</p>
+              <div class="meter"><span style="width: 65%"></span></div>
+            </div>
+
+            <div class="reveal card shadow-card" data-reveal-delay="180">
+              <div class="card-head">
+                <strong>SQL</strong><span class="tag">Data</span>
+              </div>
+              <p class="lead">Modélisation, requêtes, indexation simple.</p>
+              <div class="meter"><span style="width: 72%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projets -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="reveal center-title">Projets</h2>
+
+          <div class="grid grid-2">
+            <!-- Job Board -->
+            <article class="reveal card shadow-card project">
+              <div class="head">
+                <strong>Job Board</strong>
+                <div class="actions">
+                  <a
+                    href="https://github.com/riyadnaghmouchi"
+                    target="_blank"
+                    rel="noopener"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="lead">
+                Site complet type Indeed — front & back-end (Node.js).
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span>
+                <span class="tag">JS</span><span class="tag">Node.js</span>
+              </div>
+
+              <!-- Mini aperçu -->
+              <div class="preview-row">
+                <a
+                  class="thumb"
+                  href="./job.png"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="./job.png"
+                    alt="Aperçu du Job Board"
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+              </div>
+            </article>
+
+            <!-- CV en ligne -->
+            <article class="reveal card shadow-card project">
+              <div class="head">
+                <strong>CV en ligne</strong>
+                <div class="actions">
+                  <a
+                    href="https://github.com/riyadnaghmouchi"
+                    target="_blank"
+                    rel="noopener"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="lead">Version interactive et responsive de mon CV.</p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span>
+              </div>
+
+              <!-- Mini aperçu -->
+              <div class="preview-row">
+                <a class="thumb" href="./cv.png" target="_blank" rel="noopener">
+                  <img
+                    src="./cv.png"
+                    alt="Aperçu du CV en ligne"
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Expériences -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="reveal center-title">Expériences</h2>
+          <div class="grid grid-2">
+            <div class="reveal card shadow-card">
+              <h3>Technicien Télécoms & Réseaux — SFR</h3>
+              <p class="lead"><em>2021–2024</em></p>
+              <ul class="xp-list">
+                <li>Installation réseaux & matériel optique</li>
+                <li>Raccordement, maintenance, tests & dépannage</li>
+              </ul>
+            </div>
+            <div class="reveal card shadow-card">
+              <h3>Employé Polyvalent — Terre Blanche Hôtel Spa Golf ★★★★★</h3>
+              <p class="lead"><em>2021–2024</em></p>
+              <ul class="xp-list">
+                <li>Accueil & gestion de la clientèle</li>
+                <li>
+                  Outils : PMS (Opera/Cloud), POS (Micros/Simphony, Lightspeed)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="reveal">Contact</h2>
+          <div class="contact-grid">
+            <div class="reveal card shadow-card">
+              <p class="lead">
+                Dispo pour échanger sur un projet ou une alternance.
+              </p>
+              <div class="contact-cards">
+                <div class="card small">
+                  <strong>Email</strong>
+                  <p class="lead">
+                    <a href="mailto:riyad.naghmouchi@epitech.eu"
+                      >riyad.naghmouchi@epitech.eu</a
+                    >
+                  </p>
+                </div>
+                <div class="card small">
+                  <strong>Téléphone</strong>
+                  <p class="lead">
+                    <a href="tel:+33617525207">06 17 52 52 07</a>
+                  </p>
+                </div>
+                <div class="card small">
+                  <strong>Localisation</strong>
+                  <p class="lead">Nice, France</p>
+                </div>
+              </div>
+              <div class="social-row">
+                <a
+                  class="tag"
+                  href="https://www.linkedin.com/in/riyad-naghmouchi-informatique-programmation-devops-devfullstack"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+                <a
+                  class="tag"
+                  href="https://github.com/riyadnaghmouchi"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  class="tag"
+                  href="cv_riyad_naghmouchi.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >CV (PDF)</a
+                >
+              </div>
+            </div>
+
+            <!-- Formulaire réel (Formspree). Remplace TON_ID par ton ID Formspree -->
+            <form
+              class="reveal card shadow-card"
+              action="https://formspree.io/f/TON_ID"
+              method="POST"
+            >
+              <div
+                class="grid"
+                style="grid-template-columns: 1fr 1fr; gap: 0.75rem"
+              >
+                <label>
+                  <span class="sr-only">Nom</span>
+                  <input
+                    name="name"
+                    placeholder="Nom"
+                    required
+                    autocomplete="name"
+                  />
+                </label>
+                <label>
+                  <span class="sr-only">Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    autocomplete="email"
+                  />
+                </label>
+              </div>
+              <label>
+                <span class="sr-only">Sujet</span>
+                <input
+                  name="subject"
+                  placeholder="Sujet"
+                  required
+                  style="margin-top: 0.75rem"
+                />
+              </label>
+              <label>
+                <span class="sr-only">Votre message</span>
+                <textarea
+                  name="message"
+                  placeholder="Votre message"
+                  required
+                  style="margin-top: 0.75rem"
+                ></textarea>
+              </label>
+
+              <!-- Honeypot anti-spam -->
+              <input
+                type="text"
+                name="_gotcha"
+                style="display: none"
+                tabindex="-1"
+                autocomplete="off"
+              />
+
+              <button
+                class="btn form"
+                style="width: 100%; margin-top: 0.75rem"
+                type="submit"
+              >
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>
+          <strong>Mon Portfolio</strong>
+          <p class="lead">
+            Développeur web. Simplicité, performances, expérience humaine.
+          </p>
+        </div>
+        <div>
+          <strong>Navigation</strong>
+          <div class="footer-links">
+            <a href="#about">À propos</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <strong>Liens</strong>
+          <div class="footer-links">
+            <a href="cv_riyad_naghmouchi.pdf" target="_blank" rel="noopener"
+              >CV (PDF)</a
+            >
+            <a
+              href="https://github.com/riyadnaghmouchi"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/riyad-naghmouchi-informatique-programmation-devops-devfullstack"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+        style="margin-top: 1.25rem; color: #94a3b8; justify-items: center"
+      >
+        © 2025 Riyad Naghmouchi — Portfolio
+      </div>
+    </footer>
+
+    <!-- JS (déféré) -->
+    <script src="main.js" defer></script>
+  </body>
+</html>

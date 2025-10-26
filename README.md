@@ -13,22 +13,21 @@ Ce site présente mes **compétences**, **projets**, et **expériences professio
 
 ## 🧑‍💻 Stack technique
 
-- **HTML5** — structure sémantique  
-- **CSS3** — responsive design & animations  
-- **JavaScript (ES6)** — effets interactifs (reveal au scroll, thème sombre/clair)  
+- **HTML5** — structure sémantique
+- **CSS3** — responsive design & animations
+- **JavaScript (ES6)** — effets interactifs (reveal au scroll, thème sombre/clair)
 - **GitHub Pages** — hébergement gratuit
 
 ---
 
 ## 🎨 Fonctionnalités
 
-- Mode **clair / sombre** 🌙☀️  
-- Animation d’apparition fluide au scroll  
-- Site **responsive** (desktop, tablette, mobile)  
-- Liens vers **LinkedIn**, **GitHub** et **CV PDF**  
+- Mode **clair / sombre** 🌙☀️
+- Animation d’apparition fluide au scroll
+- Site **responsive** (desktop, tablette, mobile)
+- Liens vers **LinkedIn**, **GitHub** et **CV PDF**
 - Formulaire de contact fonctionnel (via Formspree)
 
 ---
 
 ## 📂 Structure du projet
-
